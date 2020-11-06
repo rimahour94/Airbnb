@@ -1,0 +1,2501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      src="https://kit.fontawesome.com/97aba7190e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="signup.js"></script>
+    <link rel="stylesheet" href="./Style/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Airbnb by Sky</title>
+  </head>
+  <body id="main-body">
+    <div class="container-body">
+      <div class="container-header">
+        <img src="" alt="" />
+
+        <div class="container-navigation-main">
+          <header class="navigation">
+            <div class="container-navigation-ul">
+              <ul class="navigation-ul">
+                <li class="navigation-ul-li" onclick="myfunctionEnglish()">
+                  English(IN)
+                </li>
+                <li class="navigation-ul-li" onclick="myfunctionINR()">₹INR</li>
+                <li class="navigation-ul-li">Host a home</li>
+                <li class="navigation-ul-li">Host an experience</li>
+                <li class="navigation-ul-li" onclick="myfunctionHelp()">
+                  Help
+                </li>
+                <!-- Help Page Start -->
+                <div class="container-help" id="help-id">
+                  <div class="container-help-h1">
+                    <h1 class="help-h1">Recomended help</h1>
+                    <button onclick="myfunctionCrossHelp()" class="cross-help">
+                      X
+                    </button>
+                  </div>
+                  <hr class="help-first-hr" />
+                  <div class="container-help-main">
+                    <div class="container-search-by-keyword">
+                      <h1 class="search-by-keyword-h1">
+                        Search by keyword
+                      </h1>
+
+                      <input
+                        class="input-search-by-keyword"
+                        type="text"
+                        placeholder="E.g.:reservation status"
+                      />
+                    </div>
+                    <div class="container-coronavirus-update">
+                      <div class="container-icon">R</div>
+                      <h1 class="coronavirus-update-h1">Coronavirus update</h1>
+                      <p class="corona-virus-update-para">
+                        We are now offering Guests full refunds and Hosts
+                        no-charge cancellations for reservations booked on or
+                        before 14 March with a check-in date of 14 April or
+                        earlier. Please note that this policy will not cover any
+                        new bookings.
+                      </p>
+                      <div class="container-corona-anchor">
+                        <a class="corona-anchor" href="#">Learn more</a>
+                      </div>
+                    </div>
+                    <div class="container-recommended-articles">
+                      <div class="container-recommended">
+                        <h2 class="recommended-article-h1">
+                          RECOMMENDED ARTICLE
+                        </h2>
+                      </div>
+                      <div class="container-policies-h1-para">
+                        <h1 class="recommended-h1">
+                          Extenuating circumstances policy and the coronavirus
+                          (COVID-19)
+                        </h1>
+                        <div class="container-recommended-para">
+                          <p class="recommended-para">Updated 30 March 2020</p>
+                        </div>
+                        <div class="container-recommended-anchor">
+                          <a class="recommended-anchor" href="#">Read more</a>
+                        </div>
+                      </div>
+
+                      <div class="container-policies-h1-para">
+                        <h1 class="recommended-h1">
+                          How do I create an account?
+                        </h1>
+                        <div class="container-recommended-para">
+                          <p class="recommended-para">
+                            If you don't have an Airbnb account yet, go to
+                            airbnb.com and click Sign Up. You can sign up using
+                            you
+                          </p>
+                        </div>
+                        <a class="recommended-anchor" href="#">Read more</a>
+                      </div>
+
+                      <div class="container-policies-h1-para">
+                        <h1 class="recommended-h1">
+                          How do I reset or change my password?
+                        </h1>
+                        <div class="container-recommended-para">
+                          <p class="recommended-para">
+                            If you've forgotten your password, or you're having
+                            trouble logging in to your Airbnb account, go to the
+                          </p>
+                        </div>
+                        <a class="recommended-anchor" href="#">Read more</a>
+                      </div>
+
+                      <div class="container-policies-h1-para">
+                        <h1 class="recommended-h1">
+                          What should I do if someone asks me to pay outside of
+                          the Airbnb website?
+                        </h1>
+                        <div class="container-recommended-para">
+                          <p class="recommended-para">
+                            Don’t send them money, and let us know. We’ll never
+                            ask you to pay for anything outside of our si
+                          </p>
+                        </div>
+                        <a class="recommended-anchor" href="#">Read more</a>
+                      </div>
+
+                      <div class="container-policies-h1-para">
+                        <h1 class="recommended-h1">
+                          What is the Airbnb cancellation policy for stays?
+                        </h1>
+                        <div class="container-recommended-para">
+                          <p class="recommended-para">
+                            On Airbnb, hosts set the cancellation policies that
+                            guests can book with. The terms vary depending on
+                            the place
+                          </p>
+                        </div>
+                        <a class="recommended-anchor" href="#">Read more</a>
+                      </div>
+                    </div>
+                    <div class="container-explore-more-article-by-topic">
+                      <div class="explore-more-container">
+                        <p class="explore-more-para">
+                          EXPLORE MORE ARTICLES BY TOPIC
+                        </p>
+                      </div>
+                      <div class="container-explore-more-anchor">
+                        <a href="#" class="explore-more-anchor"
+                          >Reservation Requests</a
+                        >
+                        <hr class="explore-hr" />
+                        <a href="#" class="explore-more-anchor"
+                          >Contacting hosts</a
+                        >
+                        <hr class="explore-hr" />
+                        <a href="#" class="explore-more-anchor"
+                          >Prices & fees</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <hr class="explore-hr" />
+                  <div class="container-button-help-centre">
+                    <button class="help-centre-button">
+                      Visit the Help Centre
+                    </button>
+                  </div>
+                  <div class="container-feedback">
+                    <a class="feedback-anchor" href="#">Give feedback</a>
+                  </div>
+                </div>
+                <!-- Help Page End -->
+                <li class="navigation-ul-li" onclick="myfunctionSignUp()">
+                  Sign Up
+                </li>
+                <li class="navigation-ul-li" onclick="myfunctionLogIn()">
+                  Log in
+                </li>
+              </ul>
+
+              <!-- Log in start-->
+              <div class="container-signup-main" id="login-id">
+                <div class="container-sign-up">
+                  <div class="container-sign-up">
+                    <button
+                      class="cross-button"
+                      onclick="myfunctionLoginCross()"
+                    >
+                      X
+                    </button>
+                    <h1 class="sign-up-h1">Log in</h1>
+                  </div>
+                </div>
+                <div class="container-hr-first"><hr /></div>
+                <div class="container-sign-up-scroll">
+                  <div class="container-phone">
+                    <form action="">
+                      <input
+                        class="input-country-region"
+                        type="text"
+                        placeholder="country/Region India(+91)"
+                      />
+                      <div class="container-phone-number">
+                        <input
+                          type="text"
+                          class="input-phone-number"
+                          placeholder="Phone number"
+                        />
+                      </div>
+                      <div class="container-in-form-phone">
+                        <p class="para-in-form-phone">
+                          We’ll call or text you to confirm your number.
+                          Standard message and data rates apply
+                        </p>
+                      </div>
+                      <div class="container-continue-button">
+                        <button class="continue-button">Continue</button>
+                      </div>
+                    </form>
+                    <div class="container-hr-second">
+                      <hr />
+                    </div>
+                  </div>
+                  <div class="container-social-icons">
+                    <button class="button-social-icon">
+                      continue with email</button
+                    ><br />
+                    <button class="button-social-icon">
+                      continue with Facebook</button
+                    ><br />
+                    <button class="button-social-icon">
+                      continue with Google</button
+                    ><br />
+                    <button class="button-social-icon">
+                      continue with Apple</button
+                    ><br />
+                  </div>
+                  <p class="already-account-para">
+                    Already have an account?
+                    <a class="already-have-account-anchor" href="#">
+                      Sign up
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <!-- Log in End -->
+              <!-- Signup Page Start -->
+              <div class="container-signup-main" id="signup-id">
+                <div class="container-sign-up">
+                  <div class="container-sign-up">
+                    <button
+                      class="cross-button"
+                      onclick="myfunctionSignUpCross()"
+                    >
+                      X
+                    </button>
+                    <h1 class="sign-up-h1">Sign up</h1>
+                  </div>
+                </div>
+                <div class="container-hr-first"><hr /></div>
+                <div class="container-sign-up-scroll">
+                  <div class="container-phone">
+                    <form action="">
+                      <input
+                        class="input-country-region"
+                        type="text"
+                        placeholder="country/Region India(+91)"
+                      />
+                      <div class="container-phone-number">
+                        <input
+                          type="text"
+                          class="input-phone-number"
+                          placeholder="Phone number"
+                        />
+                      </div>
+                      <div class="container-in-form-phone">
+                        <p class="para-in-form-phone">
+                          We’ll call or text you to confirm your number.
+                          Standard message and data rates apply
+                        </p>
+                      </div>
+                      <div class="container-continue-button">
+                        <button class="continue-button">Continue</button>
+                      </div>
+                    </form>
+                    <div class="container-hr-second">
+                      <hr />
+                    </div>
+                  </div>
+                  <div class="container-social-icons">
+                    <button class="button-social-icon">
+                      continue with email</button
+                    ><br />
+                    <button class="button-social-icon">
+                      continue with Facebook</button
+                    ><br />
+                    <button class="button-social-icon">
+                      continue with Google</button
+                    ><br />
+                    <button class="button-social-icon">
+                      continue with Apple</button
+                    ><br />
+                  </div>
+                  <p class="already-account-para">
+                    Already have an account?
+                    <a class="already-have-account-anchor" href="#">
+                      Login
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <!-- Signup Page ENd -->
+              <!-- INR PAGE START -->
+              <div class="main-container-english" id="INR-page">
+                <button
+                  class="english-close-button"
+                  onclick="myfunctionINRCross()"
+                >
+                  X
+                </button>
+                <hr />
+                <div class="container-english-languages">
+                  <div class="choose-a-language-and-region-h1">
+                    <h1>Choose currency</h1>
+                  </div>
+                  <div class="choose-a-language-and-region">
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        Indian rupee
+                        <br />
+                        <span class="choose-a-language-span">INR - ₹</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        American dollar
+                        <br />
+                        <span class="choose-a-language-span">AUD - $</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- INR PAGE END -->
+              <!--English Page start  -->
+              <div class="main-container-english" id="english-page">
+                <button
+                  class="english-close-button"
+                  onclick="myfunctionEnglishCross()"
+                >
+                  X
+                </button>
+                <hr />
+                <div class="container-english-languages">
+                  <div class="english-languages-h1">
+                    <h1>Suggest languages and regions</h1>
+                  </div>
+                  <div class="container-suggest-languages-and-regions">
+                    <div class="suggest-languages-container">
+                      <p class="suggest-languages-para">
+                        English
+                        <br />
+                        <span class="language-suggestion-span"
+                          >United States</span
+                        >
+                      </p>
+                    </div>
+                    <div class="suggest-languages-container">
+                      <p class="suggest-languages-para">
+                        English
+                        <br />
+                        <span class="language-suggestion-span"
+                          >United Kingdom</span
+                        >
+                      </p>
+                    </div>
+                    <div class="suggest-languages-container">
+                      <p class="suggest-languages-para">
+                        हिन्दी
+                        <br />
+                        <span class="language-suggestion-span">भारत</span>
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="choose-a-language-and-region-h1">
+                    <h1>Choose a language and region</h1>
+                  </div>
+                  <div class="choose-a-language-and-region">
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+
+                    <div class="choose-a-language-and-region-container">
+                      <p class="choose-a-language-and-region-para">
+                        English
+                        <br />
+                        <span class="choose-a-language-span">India</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- English page end -->
+            </div>
+          </header>
+        </div>
+
+        <div class="container-form">
+          <form action="" class="container-form-action">
+            <div class="container-form-unique-places-heading">
+              <h1>Book unique places to stay and thing to do</h1>
+            </div>
+            <div class="container-form-placeholders">
+              <label> WHERE</label>
+              <input class="container-form-input" placeholder="Anywhere" />
+            </div>
+
+            <div class="container-checkinout">
+              <div class="checkin">
+                <label>CHECK-IN</label>
+                <input class="container-form-input-checkinout" type="date" />
+              </div>
+
+              <div class="checkout">
+                <label> CHECKOUT</label>
+                <input class="container-form-input-checkinout" type="date" />
+              </div>
+            </div>
+            <div class="container-form-placeholders">
+              <label> GUESTS</label>
+              <input
+                id="guest-anywhere"
+                class="container-form-input"
+                onclick="myfunction()"
+                value="Guest"
+              />
+            </div>
+            <!-- Guest Input field start -->
+            <div id="guest-input-id-js" class="container-guest">
+              <div class="guest-aci">Adult</div>
+              <div class="container-plus-minus">
+                <button
+                  onclick="myfunction_button_plus('adult-minus')"
+                  class="container-plus"
+                  type="button"
+                >
+                  -
+                </button>
+                <span
+                  id="guest-button-adult-plus"
+                  id="guest-button-adult-minus"
+                  class="container-number-span"
+                  >0+</span
+                >
+                <button
+                  onclick="myfunction_button_plus('adult')"
+                  class="container-minus"
+                  type="button"
+                >
+                  +
+                </button>
+              </div>
+              <div class="guest-aci">
+                Children <span class="age-ci">Ages 2-12</span>
+              </div>
+              <div class="container-plus-minus">
+                <button
+                  onclick="myfunction_button_plus('children-minus')"
+                  class="container-plus"
+                  type="button"
+                >
+                  -
+                </button>
+                <span
+                  id="guest-button-children-plus"
+                  class="container-number-span"
+                  >0+</span
+                >
+                <button
+                  class="container-minus"
+                  type="button"
+                  onclick="myfunction_button_plus('children')"
+                >
+                  +
+                </button>
+              </div>
+              <div class="guest-aci">
+                Infants <span class="age-ci">Under 2</span>
+              </div>
+              <div class="container-plus-minus">
+                <button
+                  onclick="myfunction_button_plus('infants-minus')"
+                  class="container-plus"
+                  type="button"
+                >
+                  -
+                </button>
+                <span
+                  id="guest-button-infants-plus"
+                  class="container-number-span"
+                  >0+</span
+                >
+                <button
+                  class="container-minus"
+                  onclick="myfunction_button_plus('infants')"
+                  type="button"
+                >
+                  +
+                </button>
+              </div>
+              <div class="container-save">
+                <button
+                  onclick="myfunction_button_plus('anchor-clear')"
+                  type="button"
+                  class="container-guest-clear-button"
+                >
+                  clear
+                </button>
+                <a href="" class="container-guest-save-anchor">save</a>
+              </div>
+            </div>
+            <!-- Guest Input field end -->
+            <div class="container-form-search-button">
+              <button type="button" class="search-button">Search</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="container-header-covid">
+          <!-- <div class="covvid-19"></div> -->
+          <div class="container-header-heading">
+            <h1 class="container3-h1">
+              The wellbeing of our community is our priority
+            </h1>
+          </div>
+          <div class="container-header-covid-paragraph">
+            <p class="container-header-covid-para">
+              We encourage all travellers to visit our help centre to get the
+              latest updates on how COVID-19 may affect travel and to learn more
+              about our cancellation policies including flexible options
+            </p>
+          </div>
+          <div class="container-header-learnmore">
+            <a class="covvid-anchor" href="#">Learn more</a>
+          </div>
+        </div>
+
+        <div class="container-header-anchor-div">
+          <a class="container-unique-anchor" href=""
+            >Over 300 unique places to stay in Oregon</a
+          >
+        </div>
+      </div>
+
+      <div class="container-explore">
+        <div class="container-explore-h1-div">
+          <h1 class="container-explore-h1">Explore Airbnb</h1>
+        </div>
+        <div class="container-explore-flex">
+          <div class="container-explore-stay">
+            <img
+              class="container-explore-image"
+              src="Images/Airbnbstay.jpeg"
+              alt=""
+            />
+
+            <label class="explore-label">Stays</label>
+          </div>
+          <div class="container-explore-stay">
+            <img
+              class="container-explore-image"
+              src="Images/Airbnbstay.jpeg"
+              alt=""
+            />
+            <label class="explore-label">Experiences</label>
+          </div>
+          <div class="container-explore-stay">
+            <img
+              class="container-explore-image"
+              src="Images/Airbnbstay.jpeg"
+              alt=""
+            />
+            <label class="explore-label">Adventures</label>
+          </div>
+        </div>
+      </div>
+      <div class="container5">
+        <h1 class="container-airbnb-plus-places-h1">
+          Airbnb plus places to stay
+        </h1>
+        <p class="container-airbnb-plus-places-para">
+          A selection of places to stay verified for quality and design.
+        </p>
+        <div class="container-airbnb-plus-explore">
+          <button class="container5-button">EXPLORE STAYS</button>
+        </div>
+      </div>
+      <div class="container6">
+        <h1 class="container-airbnb-plus-places-h1">
+          Introducing Airbnb Adventures
+        </h1>
+        <p class="container-airbnb-plus-places-para">
+          Multi-day trips led by local experts – activities, meals, and stays
+          included.
+        </p>
+        <div class="container-federation">
+          <div class="container-federation-countries">
+            <img class="federation-image" src="Images/federation.jpeg" alt="" />
+            <h3 class="container-federation-h3">RUSSIANFEDERATION</h3>
+            <p class="container-federation-anchor" href="#">
+              Окунитесь в настоящую сельскую жизнь
+            </p>
+            <p class="container-federation-price-by-person">
+              From ₹6,412/person · 2 days
+            </p>
+          </div>
+          <div class="container-federation-countries">
+            <img class="federation-image" src="Images/federation.jpeg" alt="" />
+            <h3 class="container-federation-h3">CANADA</h3>
+            <p class="container-federation-anchor" href="#">
+              Bioluminescent Overnight Yachtstay
+            </p>
+
+            <p class="container-federation-price-by-person">
+              From ₹8,792/person · 2 days
+            </p>
+          </div>
+
+          <div class="container-federation-countries">
+            <img class="federation-image" src="Images/federation.jpeg" alt="" />
+            <h3 class="container-federation-h3">UNITEDSTATES</h3>
+            <p class="container-federation-anchor" href="#">
+              Up North: Kayaking, Glamping, and FUN
+            </p>
+            <p class="container-federation-price-by-person">
+              From ₹27,829/person · 3 days
+            </p>
+          </div>
+          <div class="container-federation-countries">
+            <img class="federation-image" src="Images/federation.jpeg" alt="" />
+            <h3 class="container-federation-h3">MADAGACSAR</h3>
+            <p class="container-federation-anchor" href="#">
+              Nature Photography in Madagacsar
+            </p>
+            <p class="container-federation-price-by-person">
+              From ₹557,336/person · 14 days
+            </p>
+          </div>
+
+          <div class="container-federation-countries">
+            <img class="federation-image" src="Images/federation.jpeg" alt="" />
+            <h3 class="container-federation-h3">VIETNAM</h3>
+            <a class="container-federation-anchor" href="#">
+              Discover Majestic of Lan Ha Bay
+            </a>
+            <p class="container-federation-price-by-person">
+              From ₹12,774/person · 3 days
+            </p>
+          </div>
+        </div>
+        <div
+          class="container-places-to-stay-container-arroundthe-world-show-all-adventures"
+        >
+          <a class="show-all-adventures-anchor" href="#">Show all</a
+          ><span class="aroundthe-world-apan">></span>
+        </div>
+        <!-- <div class="container-juhs-main">
+        <div class="container-juhs-places-h1"><h1 class="container-juhs-h1">Places to stay around the world</h1></div>
+        <div class="container-juhs">
+        <div class="container-around-the-world-juhs">
+          
+          <p class="container-juhs-para">
+            <span class="container-superhost-span">SUPERHOST</span>
+            <img class="federation-image"src="/Images/federation.jpeg" alt="">
+            <h3 class="container-juhs-h3">Japan</h3> Japan Charm&Tradition-Yui Valley(easy Tokyo/Kyoto) Price:<span
+              class="container-price-span"
+              >₹8,333</span
+            >
+            / night
+          </p>
+        </div>
+        <div class="container-around-the-world-juhs">
+         
+          <p class="container-juhs-para">
+            <span class="container-superhost-span">SUPERHOST</span>
+            <h3 class="container-juhs-h3">United States</h3> Joshua Tree Homesteader Cabin Price:<span
+              class="container-price-span"
+              >₹7,624</span
+            >
+            / night
+          </p>
+        </div>
+        <div class="container-around-the-world-juhs">
+         
+          <p class="container-juhs-para">
+            <span class="container-superhost-span">SUPERHOST</span>
+            <h3 class="container-juhs-h3">Hungary</h3> Hidden Gem of Budapest City Centre Price:<span
+              class="container-price-span"
+              >₹5,333</span
+            >
+            / night
+          </p>
+        </div>
+        <div class="container-around-the-world-juhs">
+          
+          <p class="container-juhs-para">
+            <span class="container-superhost-span">SUPERHOST</span>
+            <h3 class="container-juhs-h3">United States</h3> Treehouse at Kilauea Volcano Price:<span
+              class="container-price-span"
+              >₹22,133</span
+            >
+            / night
+          </p>
+        </div>
+        <div class="container-around-the-world-juhs">
+          
+          <p class="container-juhs-para">
+            <span class="container-superhost-span">SUPERHOST</span>
+            <h3 class="container-juhs-h3">United States</h3> Dreamy Tropical Tree House Price:<span
+              class="container-price-span"
+              >₹7,543</span
+            >
+            / night
+          </p>
+        </div>
+        </div>
+        </div> -->
+      </div>
+
+      <div class="container6">
+        <h1 class="container-airbnb-places-around-the-world-h1">
+          Places around the world
+        </h1>
+
+        <div class="container-federation">
+          <div class="container-federation-countries">
+            <img class="federation-image" src="Images/federation.jpeg" alt="" />
+            <h3 class="container-federation-h3">
+              <span class="container-superhost-span">SUPERHOST</span> Japan
+            </h3>
+            <p class="container-federation-anchor">
+              Japan Charm&Tradition-Yui Valley(easy Tokyo/Kyoto)
+            </p>
+            <p class="container-federation-price-by-person">
+              From
+              <span class="container-price-span">₹7,624 /person · 2 days</span>
+            </p>
+          </div>
+          <div class="container-federation-countries">
+            <img class="federation-image" src="Images/federation.jpeg" alt="" />
+            <h3 class="container-federation-h3">
+              <span class="container-superhost-span">SUPERHOST</span> Unites
+              States
+            </h3>
+            <p class="container-federation-anchor">
+              Joshua Tree Homesteader Cabin Price
+              <span class="container-price-span"> ₹9,284 /person · 2 days</span>
+            </p>
+          </div>
+
+          <div class="container-federation-countries">
+            <img class="federation-image" src="Images/federation.jpeg" alt="" />
+            <h3 class="container-federation-h3">
+              <span class="container-superhost-span">SUPERHOST</span> Hungary
+            </h3>
+            <p class="container-federation-anchor">
+              Hidden Gem of Budapest City Centre
+            </p>
+            <p class="container-federation-price-by-person">
+              <span class="container-price-span">
+                ₹12,884 /person · 2 days</span
+              >
+            </p>
+          </div>
+          <div class="container-federation-countries">
+            <img class="federation-image" src="Images/federation.jpeg" alt="" />
+            <h3 class="container-federation-h3">
+              <span class="container-superhost-span">SUPERHOST</span> Unites
+              States
+            </h3>
+            <p class="container-federation-anchor">
+              Treehouse at Kilauea Volcano
+            </p>
+            <p class="container-federation-price-by-person">
+              <span class="container-price-span"> ₹3,714 /person · 1 days</span>
+            </p>
+          </div>
+
+          <div class="container-federation-countries">
+            <img class="federation-image" src="Images/federation.jpeg" alt="" />
+            <h3 class="container-federation-h3">
+              <span class="container-superhost-span">SUPERHOST</span> Unites
+              States
+            </h3>
+            <p class="container-federation-anchor">
+              Dreamy Tropical Tree House
+            </p>
+            <p class="container-federation-price-by-person">
+              <span class="container-price-span"> ₹7,805 /person · 3 days</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="container-juhs-main">
+        <div class="container-juhs-places-h1"><h1 class="container-juhs-h1">Places to stay around the world</h1></div>
+        <div class="container-juhs">
+        <div class="container-around-the-world-juhs">
+          
+          <p class="container-juhs-para">
+            <span class="container-superhost-span">SUPERHOST</span>
+            <img class="federation-image"src="/Images/federation.jpeg" alt="">
+            <h3 class="container-juhs-h3">Japan</h3> Japan Charm&Tradition-Yui Valley(easy Tokyo/Kyoto) Price:<span
+              class="container-price-span"
+              >₹8,333</span
+            >
+            / night
+          </p>
+        </div>
+        <div class="container-around-the-world-juhs">
+         
+          <p class="container-juhs-para">
+            <span class="container-superhost-span">SUPERHOST</span>
+            <h3 class="container-juhs-h3">United States</h3> Joshua Tree Homesteader Cabin Price:<span
+              class="container-price-span"
+              >₹7,624</span
+            >
+            / night
+          </p>
+        </div>
+        <div class="container-around-the-world-juhs">
+         
+          <p class="container-juhs-para">
+            <span class="container-superhost-span">SUPERHOST</span>
+            <h3 class="container-juhs-h3">Hungary</h3> Hidden Gem of Budapest City Centre Price:<span
+              class="container-price-span"
+              >₹5,333</span
+            >
+            / night
+          </p>
+        </div>
+        <div class="container-around-the-world-juhs">
+          
+          <p class="container-juhs-para">
+            <span class="container-superhost-span">SUPERHOST</span>
+            <h3 class="container-juhs-h3">United States</h3> Treehouse at Kilauea Volcano Price:<span
+              class="container-price-span"
+              >₹22,133</span
+            >
+            / night
+          </p>
+        </div>
+        <div class="container-around-the-world-juhs">
+          
+          <p class="container-juhs-para">
+            <span class="container-superhost-span">SUPERHOST</span>
+            <h3 class="container-juhs-h3">United States</h3> Dreamy Tropical Tree House Price:<span
+              class="container-price-span"
+              >₹7,543</span
+            >
+            / night
+          </p>
+        </div>
+        </div>
+        </div> -->
+      <div class="show-all-popular-destination-div">
+        <a class="show-all-popular-destination-anchor" href="#">show(2000+)</a>
+      </div>
+
+      <div class="container-popular-destination-main">
+        <h1 class="container-main-h1">
+          Popular destinations in the United States
+        </h1>
+        <div class="container-popular-destination-in-us">
+          <div class="container-destination-in-sanfransico">
+            <h1 class="container-popular-destination-h1">San Fransico</h1>
+            <p class="container-popular-destination-p">$216/night average</p>
+          </div>
+          <div class="container-destination-in-Losangeles">
+            <h1 class="container-popular-destination-h1">Los Angeles</h1>
+            <p class="container-popular-destination-p">$213/night average</p>
+          </div>
+          <div class="container-destination-in-NewYork">
+            <h1 class="container-popular-destination-h1">New York</h1>
+            <p class="container-popular-destination-p">$159/night average</p>
+          </div>
+          <div class="container-destination-in-Seattle">
+            <h1 class="container-popular-destination-h1">Seattle</h1>
+            <p class="container-popular-destination-p">$134/night average</p>
+          </div>
+          <div class="container-destination-in-Denver">
+            <h1 class="container-popular-destination-h1">Denver</h1>
+            <p class="container-popular-destination-p">$128/night average</p>
+          </div>
+        </div>
+
+        <div class="container-destination-second">
+          <div class="container-destination-in-washington-DC">
+            <h1 class="container-popular-destination-h1">Washington DC</h1>
+            <p class="container-popular-destination-p">$166/night average</p>
+          </div>
+          <div class="container-destination-in-Phoenix">
+            <h1 class="container-popular-destination-h1">San Fransico</h1>
+            <p class="container-popular-destination-p">$232/night average</p>
+          </div>
+          <div class="container-destination-in-Austin">
+            <h1 class="container-popular-destination-h1">Austin</h1>
+            <p class="container-popular-destination-p">$242/night average</p>
+          </div>
+          <div class="container-destination-in-Houston">
+            <h1 class="container-popular-destination-h1">Houston</h1>
+            <p class="container-popular-destination-p">$351/night average</p>
+          </div>
+          <div class="container-destination-in-NewOrleans">
+            <h1 class="container-popular-destination-h1">New Orleans</h1>
+            <p class="container-popular-destination-p">$210/night average</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-airbnb-plus-destination-h1-p">
+        <h1 class="container-airbnb-plus-destination-h1">
+          Featured Airbnb Plus destinations
+        </h1>
+        <p class="container-airbnb-plus-destination-p">
+          Browse beautiful places to stay with all the comforts of home, plus
+          more.
+        </p>
+      </div>
+      <div class="container-featured-airbnb-plus-destination">
+        <div class="container-featured-airbnb-plus-destination-div">
+          <img
+            class="container-featured-airbnb-plus-destination-image"
+            src="Images/plus-destination.jpeg"
+            alt=""
+          />
+
+          <p class="container-featured-airbnb-plus-destination-span">
+            390+ VERIFIED STAYS
+          </p>
+          <p class="container-verified-para">
+            Browse verified places to stay with artful style in a city that wows
+            from beach to bushland.
+          </p>
+        </div>
+        <div class="container-featured-airbnb-plus-destination-div">
+          <img
+            class="container-featured-airbnb-plus-destination-image"
+            src="Images/plus-destination.jpeg"
+            alt=""
+          />
+
+          <p class="container-featured-airbnb-plus-destination-span">
+            440+ VERIFIED STAYS
+          </p>
+          <p class="container-verified-para">
+            Book sunny lofts, beachfront flats and more verified places to stay
+            in a city with world-class coffee and street art.
+          </p>
+        </div>
+        <div class="container-featured-airbnb-plus-destination-div">
+          <img
+            class="container-featured-airbnb-plus-destination-image"
+            src="Images/plus-destination.jpeg"
+            alt=""
+          />
+
+          <p class="container-featured-airbnb-plus-destination-span">
+            550+ VERIFIED STAYS
+          </p>
+          <p class="container-verified-para">
+            Explore London from secluded garden flats and luminous lofts – all
+            verified for quality and design.
+          </p>
+        </div>
+        <!-- <div class="container-featured-airbnb-plus-destination-montreal">
+          <img src="" alt="" />
+          <p>
+            <span class="container-featured-airbnb-plus-destination-span"
+              >100+ VERIFIED STAYS</span
+            >
+            Book verified places to stay with must-have amenities, in a city
+            with Old World charm and cutting-edge cuisine
+          </p>
+        </div>
+        <div class="container-featured-airbnb-plus-destination-losangeles">
+          <img src="" alt="" />
+          <p>
+            <span class="container-featured-airbnb-plus-destination-span"
+              >940+ VERIFIED STAYS</span
+            >
+            Find beachside bungalows, mid-century modern cottages and more
+            verified places to stay in the City of Angels.
+          </p>
+        </div>
+        <div class="container-featured-airbnb-plus-destination-chicago">
+          <img src="" alt="" />
+          <p>
+            <span class="container-featured-airbnb-plus-destination-span"
+              >210+ VERIFIED STAYS
+            </span>
+            Explore Chicago’s stunning architecture from the inside – in homes
+            verified for quality and design.
+          </p>
+        </div>
+        <div class="container-featured-airbnb-plus-destination-capetown">
+          <img src="" alt="" />
+          <p>
+            <span class="container-featured-airbnb-plus-destination-span"
+              >730+ VERIFIED STAYS</span
+            >
+            Find dockside lofts, sunny studios and more verified places to stay
+            in a city that stuns from sky to sea.
+          </p>
+        </div>
+        <div class="container-featured-airbnb-plus-destination-sanfransico">
+          <img src="" alt="" />
+          <p>
+            <span class="container-featured-airbnb-plus-destination-span"
+              >290+ VERIFIED STAYS</span
+            >
+            Discover Victorian flats, SoMa lofts, and more verified places to
+            stay in a city where invention meets counterculture.
+          </p>
+        </div> -->
+      </div>
+      <div class="container-show-more">
+        <a class="anchor-show-more" href="#"
+          >Show more Airbnb Plus Destination ></a
+        >
+      </div>
+
+      <div class="container-stay-with-superhost-main">
+        <h1 class="stay-with-superhost-h1">Stay with a Superhost</h1>
+        <p class="stay-with-superhost-p">
+          Make yourself at home with these experienced hosts.
+        </p>
+        <div class="container-stay-with-superhost">
+          <div class="container-stay-with-superhost-first-half">
+            <div class="container-stay-with-superhost-first">
+              <img
+                class="stay-with-superhost-image"
+                src="Images/federation.jpeg"
+                alt=""
+              />
+              <p class="container-stay-with-superhost-para">
+                <span class="container-superhost-span">SUPERHOST</span>
+                Mexico The World Famous Seashell House ~ Cas a Caracol
+                Price:<span class="container-price-span">₹5,827</span>
+                / night
+              </p>
+            </div>
+            <div class="container-stay-with-superhost-first">
+              <img
+                class="stay-with-superhost-image"
+                src="Images/federation.jpeg"
+                alt=""
+              />
+              <p class="container-stay-with-superhost-para">
+                <span class="container-superhost-span">SUPERHOST</span>
+                Colombia Romantic Cabana with view Price:<span
+                  class="container-price-span"
+                  >₹23,527</span
+                >
+                / night
+              </p>
+            </div>
+            <div class="container-stay-with-superhost-first">
+              <img
+                class="stay-with-superhost-image"
+                src="Images/federation.jpeg"
+                alt=""
+              />
+              <p class="container-stay-with-superhost-para">
+                <span class="container-superhost-span">SUPERHOST</span>
+                United States The Joshua Tree House Price:<span
+                  class="container-price-span"
+                  >₹22,545</span
+                >
+                / night
+              </p>
+            </div>
+            <div class="container-stay-with-superhost-first">
+              <img
+                class="stay-with-superhost-image"
+                src="Images/federation.jpeg"
+                alt=""
+              />
+              <p class="container-stay-with-superhost-para">
+                <span class="container-superhost-span">SUPERHOST</span>
+                United States The Mushroom Dome Retreat & LAND of Paradise Suite
+                Price<span class="container-price-span">₹11,827</span>
+                / night
+              </p>
+            </div>
+          </div>
+          <div class="container-stay-with-superhost-second-half">
+            <div class="container-stay-with-superhost-second">
+              <img
+                class="stay-with-superhost-image"
+                src="Images/federation.jpeg"
+                alt=""
+              />
+              <p class="container-stay-with-superhost-para">
+                <span class="container-superhost-span">SUPERHOST</span>
+                United States Underground Hygge Price:<span
+                  class="container-price-span"
+                  >₹22,827</span
+                >
+                / night
+              </p>
+            </div>
+            <div class="container-stay-with-superhost-second">
+              <img
+                class="stay-with-superhost-image"
+                src="Images/federation.jpeg"
+                alt=""
+              />
+              <p class="container-stay-with-superhost-para">
+                <span class="container-superhost-span">SUPERHOST</span>
+                iceland Amazing view - Moderne apartment Price:<span
+                  class="container-price-span"
+                  >₹11,574</span
+                >
+                / night
+              </p>
+            </div>
+            <div class="container-stay-with-superhost-second">
+              <img
+                class="stay-with-superhost-image"
+                src="Images/federation.jpeg"
+                alt=""
+              />
+              <p class="container-stay-with-superhost-para">
+                <span class="container-superhost-span">SUPERHOST</span>
+                United States 'Silo Studio' Cottage Price:<span
+                  class="container-price-span"
+                  >₹16,631</span
+                >
+                / night
+              </p>
+            </div>
+            <div class="container-stay-with-superhost-second">
+              <img
+                class="stay-with-superhost-image"
+                src="Images/federation.jpeg"
+                alt=""
+              />
+              <p class="container-stay-with-superhost-para">
+                <span class="container-superhost-span">SUPERHOST</span>
+                Old Smock Windmill in rural Kent Price:<span
+                  class="container-price-span"
+                  >₹22,827</span
+                >
+                / night
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="container-show-under-stay-with-superhost">Show(2000+) ></a>
+      <div class="container-button">
+        <div class="container-last-button">
+          <button class="last-button">></button>
+        </div>
+      </div>
+      <hr />
+      <footer class="container-footer">
+        <div class="container-footer-div">
+          <div class="container-footer-div-div1">
+            <h1>Airbnb</h1>
+            <ul>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Policies</a></li>
+              <li><a href="#">Diversity & Belongings</a></li>
+              <li><a href="#">Accessibility</a></li>
+            </ul>
+          </div>
+
+          <div class="container-footer-div-div2">
+            <h1>Discover</h1>
+            <ul>
+              <li><a href="#">Trust & Safety</a></li>
+              <li><a href="#">Travel Credit</a></li>
+              <li><a href="#">Airbnb Citizen</a></li>
+              <li><a href="#">Bussiness Travel</a></li>
+              <li><a href="#">Things To Do</a></li>
+              <li><a href="#">Airbnbmag</a></li>
+            </ul>
+          </div>
+          <div class="container-footer-div-div3">
+            <h1>Hosting</h1>
+            <ul>
+              <li><a href="#">Why Host</a></li>
+              <li><a href="#">Hospitality</a></li>
+              <li><a href="#">Responsible Hosting</a></li>
+              <li><a href="#">Community Centre</a></li>
+              <li><a href="#">Host an Experience</a></li>
+              <li><a href="#">Open Homes</a></li>
+            </ul>
+          </div>
+          <div class="container-footer-div-div4">
+            <h1>Support</h1>
+            <ul>
+              <li><a href="#">Help</a></li>
+              <li>
+                <a href="#">Neighbourhood Support</a
+                ><span class="container-footer-div-div4-span">New</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="footerhr" />
+        <div class="container-footer-social-icon">
+          <div class="container-footer-copyrigth">
+            <div class="container-copyright">
+              © 2020 Airbnb, Inc. All rights reserved.
+            </div>
+            <ul class="container-footer-ul-copyright">
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">·Privacy</a></li>
+              <li><a href="#">·Site Map</a></li>
+            </ul>
+          </div>
+          <div class="container-social-icon">
+            <a href="#" class="social-icon-a">
+              <i class="fab fa-twitter fa-1x"></i>
+            </a>
+            <a href="#" class="social-icon-a">
+              <i class="fab fa-facebook fa-1x"></i>
+            </a>
+            <a href="#" class="social-icon-a">
+              <i class="fab fa-instagram fa-1x"></i>
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+<script src="Guest.js"></script>
